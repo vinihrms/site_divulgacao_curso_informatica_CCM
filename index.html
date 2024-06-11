@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logoCCM.png" alt="Logo CCM">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <nav>
+
+    </nav>
+    <main>
+        <section class="intro">
+            <div class="quote">
+                <p>"Estamos em uma era de que quem não tem conhecimento <br>o suficiente da informática é considerado analfabeto."</p>
+                <p><strong>Gilberto Martine</strong></p>
+                <a href="#">Veja Mais</a>
+            </div>
+            <div class="image">
+                <img src="PAGINA 01-HOME.png" alt="A Revolução Tecnológica">
+            </div>
+        </section>
+        
+    <main>
+
+    </main>
+    <aside>
+        <div class="titulo"> <h1>A Revolução Tecnológica.</h1> </div>
+        <div class="descricao">
+            <p>EXPOSIÇÃO DO CURSO DE INFORMATICA<br>
+            ALUNO DO 4º INFO, EDUARDO MORTITZ</p>
+        </div>
+    </aside>
+
+    <footer>
+        <ul>
+            <li><a href="#"><img src="facebook.png" alt="F"></a></li>
+            <li><a href="#"><img src="instagram.png" alt="I"></a></li>
+            <li><a href="#"><img src="whatsapp.png" alt="W"></a></li>
+        </ul>
+    </footer>
+
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

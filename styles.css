@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+    height: 50px;
+}
+
+header .logo img {
+    width: 50px;
+}
+
+header nav.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+header nav.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav.menu ul li {
+    margin: 0 15px;
+}
+
+header nav.menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header nav.menu ul li a.active,
+header nav.menu ul li a:hover {
+    color: #FFD700;
+}
+
+header .menu-toggle {
+    align-items: center;
+
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+header .menu-toggle span {
+    background-color: black;
+    margin: 3px 0;
+    width: 25px;
+    height: 3px;
+}
+
+main {
+    padding: 20px;
+}
+
+main .intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .intro .quote {
+    width: 45%;
+}
+
+main .intro .quote p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+main .intro .quote a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main .intro .image {
+    width: 45%;
+}
+
+main .intro .image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    height: 50px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a img {
+    width: 40px;
+}
+
+@media (max-width: 768px) {
+    header nav.menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    header nav.menu.active {
+        display: flex;
+    }
+
+    header nav.menu ul {
+        flex-direction: column;
+    }
+
+    header nav.menu ul li {
+        margin: 10px 0;
+    }
+
+    header .menu-toggle {
+        display: flex;
+    }
+}
