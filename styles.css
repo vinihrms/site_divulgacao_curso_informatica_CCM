@@ -52,8 +52,6 @@ header nav.menu ul li a:hover {
 }
 
 header .menu-toggle {
-    align-items: center;
-
     display: none;
     flex-direction: column;
     cursor: pointer;
@@ -67,6 +65,7 @@ header .menu-toggle span {
 }
 
 main {
+    flex: 1;
     padding: 20px;
 }
 
@@ -92,7 +91,7 @@ main .intro .quote a {
 }
 
 main .intro .image {
-    width: 45%;
+    width: 40%;
 }
 
 main .intro .image img {
@@ -157,4 +156,5 @@ footer ul li a img {
     header .menu-toggle {
         display: flex;
     }
+
 }
