@@ -1,11 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Ubuntu", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 header {
@@ -69,25 +70,29 @@ main {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
-    flex-direction: column; /* Default to column for mobile */
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 main .intro {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
     text-align: center;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    flex-direction: row; /* Default to row for desktop */
+    flex-direction: row;
 }
 
 main .intro .content {
-    width: 50%;
+    width: 45%;
     padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
 }
 
 main .intro .quote {
@@ -106,14 +111,15 @@ main .intro .quote a {
 }
 
 main .intro .image {
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 main .intro .image img {
-    width: 70%;
+    width: 80%;
     border-radius: 50%;
 }
 
@@ -128,7 +134,8 @@ footer {
     height: 50px;
     background-color: #f9f9f9;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: auto; /* Push footer to the bottom */
+    margin-top: auto;
+    box-sizing: border-box;
 }
 
 footer ul {
@@ -158,6 +165,7 @@ footer ul li a img {
         left: 0;
         right: 0;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 100%; 
     }
 
     header nav.menu.active {
@@ -183,14 +191,22 @@ footer ul li a img {
     main .intro {
         flex-direction: column;
         text-align: center;
+        padding: 0 20px;
+        box-sizing: border-box; 
     }
 
     main .intro .content {
         width: 100%;
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box; 
     }
 
     main .intro .image {
-        width: 80%;
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 20px; 
+        box-sizing: border-box;
     }
 
     main .intro .image img {
