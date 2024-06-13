@@ -123,6 +123,10 @@ main .intro .image img {
     border-radius: 50%;
 }
 
+.amarelo{
+    color: #FFD700;
+}
+
 footer {
     width: 100%;
     display: flex;
