@@ -31,8 +31,8 @@ O projeto foi realizado com a colaboração de três equipes distintas, cada uma
 O site é composto pelas seguintes seções:
 
 1. **Home**: Introdução e boas-vindas ao curso.
-2. **Sobre**: Informações detalhadas sobre o curso de Desenvolvimento de Sistemas.
-3. **Contato**: Informações de contato e formulário para envio de mensagens.
+2. **Sobre**: Informações sobre o curso de Desenvolvimento de Sistemas.
+3. **Contato**: Informações de contato do colégio.
 
 ## Tecnologias Utilizadas
 
