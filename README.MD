@@ -1,4 +1,4 @@
-# Site de Divulgação do Curso de Desenvolvimento de Sistemas do Colégio Cívico Militar Amancio Moro
+# Site de Divulgação do Curso de Desenvolvimento de Sistemas do Colégio Cívico Militar Amâncio Moro
 
 Bem-vindo ao repositório do projeto de site para divulgação do curso de Desenvolvimento de Sistemas do Colégio Cívico Militar Amancio Moro. Este projeto foi desenvolvido com o objetivo de promover o curso e apresentar suas características de forma atraente e informativa. O site é totalmente responsivo e foi desenvolvido utilizando HTML, CSS e JavaScript.
 
