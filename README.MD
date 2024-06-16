@@ -55,4 +55,4 @@ Para mais informações sobre o curso de Desenvolvimento de Sistemas e outros do
 
 ---
 
-*Última atualização: 13 de Junho de 2024*
+*Última atualização: 16 de Junho de 2024*
